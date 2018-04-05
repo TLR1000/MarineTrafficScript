@@ -13,3 +13,5 @@ Zie voor fleet documentatie: scriptProperties 'Fleetdocumentatie'
 
 Configuratie:
 scriptProperties key: mailbox2Tweet
+
+testScript.gs is een testscript om de stringmanipulaties te testen.
