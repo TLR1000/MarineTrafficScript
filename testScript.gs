@@ -49,7 +49,6 @@ function testProcessMarineTrafficMail(){
         var portname = subject.substring(portnamestart, endsubjectstr).trim().toProperCase(); //trim omdat er nog een space blijft hangen voor de naam ivm. zoeken op Port ipv ;
         Logger.log('portname:' + portname);     
 
-        //-----------------------------------Vanaf hier identiek aan testScript.gs tot EINDE identiek---------------------------------------------
         //------correctie begin------  
         if (shipsname == "C Star") { 
           tweetmsgbegin = "SAR missie van #defendeurope:  ";
@@ -106,7 +105,6 @@ function testProcessMarineTrafficMail(){
             voorzetsel = 'bij de';
             tweetmsgbegin = ''; // geen mensensmokkelactiviteit 
         }     
-        //-----------------------------------EINDE identiek---------------------------------------------
         
         //Tweet samenstellen
         tweetmsg = tweetmsgbegin + ' ' + shipsname + ' ' + beweging + ' ' + voorzetsel + ' ' + portname + '. ';
@@ -121,10 +119,6 @@ function testProcessMarineTrafficMail(){
 
 
 String.prototype.toProperCase = function () {
-//Function to return all words in a string capitalized
-/* 
-https://www.w3schools.com/jsref/jsref_obj_regexp.asp
-https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript/196991#196991
-*/
+
       return this.replace(/\b\w+/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 };
