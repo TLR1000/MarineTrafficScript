@@ -3,7 +3,7 @@ Dit script draait elke 30 min.
 
 Werking:
 Checkt voor relevante email en extract daaruit een twitter message 
-Stuurt mail met twitter message naar oostrijck@gmail.com
+Stuurt mail met twitter message naar deze mailbox
 IFTTT pakt het vervolgens op en plaatst het als tweet in het connected buffer channel
 Buffer tweet het met het roonbot2 account
 
