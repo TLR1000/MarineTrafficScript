@@ -6,7 +6,7 @@ MarineTraffic alerts worden als mail ontvangen en gelabeld in gmail.
 Dit script checkt voor relevante email en extract daaruit een twitter message 
 Stuurt mail met twitter message naar deze mailbox
 IFTTT pakt het vervolgens op en plaatst het als tweet in het connected buffer channel
-Buffer tweet het met het roonbot2 account
+Buffer tweet het met het gelinkte twitter account
 
 Zie voor fleet documentatie: scriptProperties 'Fleetdocumentatie'
 
