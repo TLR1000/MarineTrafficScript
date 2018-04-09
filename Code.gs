@@ -2,7 +2,7 @@
 Dit script draait elke 30 min.
 
 Werking:
-MarineTraffic alerts worden als mail ontvangen en gelabeld in gmail.
+MarineTraffic alerts worden als mail ontvangen en gelabeld in gmail dmv. een filter
 Dit script checkt voor relevante email en extract daaruit een twitter message 
 Stuurt mail met twitter message naar deze mailbox
 IFTTT pakt het vervolgens op en plaatst het als tweet in het connected buffer channel
