@@ -148,9 +148,11 @@ function processMarineTrafficMail(){
         //SAIPEM 12000
         if (portname == "Saipem 12000") { 
             voorzetsel = 'bij de';
-            tweetmsgbegin = ''; // geen mensensmokkelactiviteit 
+            tweetmsgbegin = ''; // geen mensensmokkelactiviteit dus # weghalen zodat hij niet triggert
         }     
-        
+        if (portname == "Portals Nous") { 
+            portname = "Portals Nous - Mallorca";
+        }       
         //marinetraffic.com Link eruit peuteren
         //voorbeeld link van "Position and track. (Datum en tijd ook uit de mail overnemen!)
         //http://www.marinetraffic.com/en/ais/home/oldshipid:5014988/oldmmsi:211773720/zoom:10/olddate:2017-07-02 09:07
